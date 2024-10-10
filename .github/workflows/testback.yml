@@ -2,7 +2,7 @@ name: testback deployment
 
 on:
   push:
-    branches: -main
+    branches: ["main"]
 
 jobs:
   build:
